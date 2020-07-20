@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emilie Bernard</title>
+    <link rel="stylesheet" href="https://cdnj.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnj.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:wght@300;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="icon" href="EB.png" type="image/png">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Bienvenue</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Mes services</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <a href="index.html">
+            <img src="img/emilie_logo.png" alt="logo">
+        </a>
+        </div>
+        <nav class="nav">
+            <ul class="nav__list">
+               <li class="nav__item"><a href="#my-work" class="nav__link">Mes projets</a></li>
+               <li class="nav__item"><a href="#about-me" class="nav__link">À propos de moi</a></li>
+    </header>
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Salut, je suis <strong>Emilie Bernard</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">Développeuse fullstack</p>
+        <img src="./img/emilie_photo.jpg" alt="une photo de moi" class="intro__img">
+        <a href="img/emilie-bernard-CV.pdf" style="text-decoration: none; color: #000; text-align: center;" class="btn" target="_blank">CV</a>
+    </section>
+
+    <section class="my-services" id="services">
+        <h1><br></h1>
+            <h2 class="section__title section__title--services">Mes services</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Création de maquette</h3>
+                    <p>Avec Figma ou Adobe XD, je peux réaliser des maquettes intéractives pour vos applications webs ou
+                        mobiles et logiciels Windows ou Linux.</p>
+                </div>
+                <div class="service">
+                    <h3>Développement front-end web</h3>
+                    <p>en React.js ou autre. Création de la partie client de votre application.</p>
+                </div>
+                <div class="service">
+                    <h3>Développement back-end</h3>
+                    <p>en Node.js ou autre langage de programation javascript. Pour pouvoir faire communiquer votre
+                        application avec votre base de données MongoDB.</p>
+                </div>
+        </div>
+        <a href="#work" class="btn work">Mes projets</a>
+    </section>
+
+    <section class="my-work" id="my-work">
+        <h2 class="section__title section__title--work">Mes projets</h2>
+        <p class="section__subtitle section__subtitle--work">Voici une liste de mes projets réalisés</p>
+
+        <div class="portfolio">
+            <a href="./portfolio-item1.html" class="portfolio__item">
+                <img src="img/portfolio1.png" alt="EIP" class="portfolio__img">
+            </a>
+            <a href="./portfolio-item2.html" class="portfolio__item">
+                <img src="img/portfolio2.PNG" alt="Epitrello" class="portfolio__img">
+            </a>
+            <a href="./portfolio-item3.html" class="portfolio__item">
+                <img src="img/portfolio3.png" alt="pocrame" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="image.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <section class="about-me" id="about-me">
+        <h2 class="section__title section__title--about">Qui suis-je ?</h2>
+        <p class="section__subtitle section__subtitle--about">Etudiante en 4e année à Epitech basé à Marseille </p>
+
+        <ul class="filters text-center button-group">
+            <li class="btn active" data-filter=".pres">Présentation</li>
+            <li class="btn" data-filter=".passion">Passions</li>
+            <li class="btn" data-filter=".sport">Sport</li>
+            <li class="btn" data-filter=".experience">Autres expériences</li>
+        </ul>
+        <div class="projects">
+            <div class="row"></div>
+            <div class="col-lg-4 item pres">
+                <div class="card">
+                    <div class="card-head">
+                        <img src="img/image-pres.png" alt="" class="img-fluid card-img">
+                        <div class="card-overlay">
+                            <h2 class="text">L'aventure <br> Le travail d’équipe <br> L'honnêteté</h2>
+                        </div>
+                        <div class="card-hover">
+                            <h2>Mes valeurs</h2>
+                            <p>Pour moi, avoir des valeurs est important. Cela permet de nous connaître et de savoir où
+                                nous voulons aller. J'ai beaucoup de valeur, mais si je dois en choisir trois, je choisi
+                                sans hésiter l'aventure, car sortir de sa zone de confort permet d'acquerir de nouvelle
+                                compétences rapidement. Le travail d'équipe car bien qu'auparavant je préférais
+                                travailler seule, j'ai appris à travailler en équipe et trouve cela bien plus productif.
+                                Enfin, l'honnêteté est très important pour moi, car être honnête permet d'aller dans la
+                                bonne direction sans perdre de temps.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 item passion">
+                <div class="card">
+                    <div class="card-head">
+                        <img src="img/image-passion.png" alt="" class="img-fluid card-img">
+                        <div class="card-overlay">
+                            <h2 class="text">Rakuten Viki</h2>
+                        </div>
+                        <div class="card-hover">
+                            <h2>Traduction sur Viki</h2>
+                            <p>Rakuten Viki est une plateforme de diffusion de série asiatique. Ce site à la
+                                particularité de laisser les fans faire la traduction des séries. Je me suis lancée dans
+                                l'aventure en 2016 et maintenant après plus de 50 milles segments traduits de l'anglais
+                                vers le français, je fais de la modération et de la gestion de traduction.<br> Si vous
+                                êtes intéressé, voici <a class="profil"
+                                    href="https://www.viki.com/users/bearimnal/overview">mon profil</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 item passion">
+                <div class="card">
+                    <div class="card-head">
+                        <img src="img/image-passion.png" alt="" class="img-fluid card-img">
+                        <div class="card-overlay">
+                            <h2 class="text">DIY</h2>
+                        </div>
+                        <div class="card-hover">
+                            <h2>Créer des objets</h2>
+                            <p>Que ce soit des cadeaux, des peluches ou des habits, il m'arrive de les faire moi-même.
+                                J'ai commencé en faisant des petits porte-clés peluches en forme d'étoile puis j'ai
+                                fabriqué des cadeaux avec des lettres, de la peinture et des paillettes. Ma dernière
+                                création en date est une jupe cercle. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 item sport">
+                <div class="card">
+                    <div class="card-head">
+                        <img src="img/image-sport.png" alt="" class="img-fluid card-img">
+                        <div class="card-overlay">
+                            <h2 class="text">Viet Vo Dao</h2>
+                        </div>
+                        <div class="card-hover">
+                            <h2>L'art martial vietnamien</h2>
+                            <p>Bien que cela ne fait qu'un an que je suis ces cours de sport. J'ai énormément appris.
+                                Les techniques et excercices travaillés tout au long de l'année me permettent de me
+                                sentir en sécurité dans la rue et de me sentir à l'aise au quotidien.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 item sport">
+                <div class="card">
+                    <div class="card-head">
+                        <img src="img/image-sport.png" alt="" class="img-fluid card-img">
+                        <div class="card-overlay">
+                            <h2 class="text">Sport en groupe</h2>
+                        </div>
+                        <div class="card-hover">
+                            <h2>Le sport avec mes amies</h2>
+                            <p>Pendant le confinement, nous n'avions presque que du temps libre. Avec mes amies nous
+                                avons donc commencé à faire des séances de sport en ligne avec différentes vidéos sur
+                                Youtube tel que celles de Pamela Rief, Gym Direct et Chloé Ting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 item experience">
+                <div class="card">
+                    <div class="card-head">
+                        <img src="img/image-exp.png" alt="" class="img-fluid card-img">
+                        <div class="card-overlay">
+                            <h2 class="text">Le monde des Tipis (été 2020)</h2>
+                        </div>
+                        <div class="card-hover">
+                            <h2>Gouvernante/Femme de chambre au camping d'Ok Corral</h2>
+                            <p>Un été de libre sans pouvoir voyager à l'autre bout du monde m'a permit de postuler en
+                                tant que femme de chambre/gouvernante au camping du parc d'attraction Ok Corral.
+                                Ce poste propose différentes missions dont la
+                                première et de vérifier que les tipis sont en ordre et propre. La seconde est de
+                                nettoyer les chalets, lodges et villas du camping. <br> C'est un travail épuissant mais qui forge le
+                                corps et l'esprit. Seulement 4 à 5h30 par jour 6 jours sur 7, j'y ai appris à tenir la
+                                cadence, à être miticuleuse et à travailler/communiquer en équipe.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 item experience">
+                <div class="card">
+                    <div class="card-head">
+                        <img src="img/image-exp.png" alt="" class="img-fluid card-img">
+                        <div class="card-overlay">
+                            <h2 class="text">Grand Prix de F1 2019</h2>
+                        </div>
+                        <div class="card-hover">
+                            <h2>Vendeuse de stand</h2>
+                            <p>Depuis 2018, le grand prix de France de F1 est de retour au Castelet pour mon plus grand
+                                plaisir. 4 jours intenses de travail (9h-18h) pour vendre des tee-shirts, casquettes et
+                                autres accoutrements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 item experience">
+                <div class="card">
+                    <div class="card-head">
+                        <img src="img/image-exp.png" alt="" class="img-fluid card-img">
+                        <div class="card-overlay">
+                            <h2 class="text">Grand Prix de F1 2018</h2>
+                        </div>
+                        <div class="card-hover">
+                            <h2>Animatrice de stand</h2>
+                            <p>Le grand prix de France de F1 est de retour au Castelet. Pendant 4 jours, j'ai travaillé
+                                avec une équipe anglaise (<a class="profil"
+                                    href="https://www.linkedin.com/company/sport-science-agency/">Sport Science
+                                    Agency</a>) pour assister les visiteurs et voir s'ils sont aptes physiquement à être
+                                pilote de formule 1.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 item experience">
+                <div class="card">
+                    <div class="card-head">
+                        <img src="img/image-exp.png" alt="" class="img-fluid card-img">
+                        <div class="card-overlay">
+                            <h2 class="text">Relais & Chateaux - Hôtel et Spa du Castelet (2016)</h2>
+                        </div>
+                        <div class="card-hover">
+                            <h2>Stage de découverte métier : Gouvernante</h2>
+                            <p>Pendant une semaine, j'ai découvert le métier de gouvernante dans un hôtel 5 étoiles, au
+                                programme, talons haut, ampoule et maux de pieds toute la semaine et mauvaise
+                                expérience. J'ai cependant appris beaucoup sur le nettoyage de chambres d'hôtels de
+                                luxes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <img src="./img/emilie.JPG" alt="une deuxième photo de moi" class="about-me__img">
+    </section>
+
+    <footer class="footer">
+        <a href="mailto:emilie1.bernard@gmail.com" class="footer__link">emilie1.bernard@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a href="https://github.com/Emilie-Bernard" class="social-list__link"><i
+                        class="fab fa-github"></i></a></li>
+            <li class="social-list__item"><a href="https://www.linkedin.com/in/bernard-emilie/"
+                    class="social-list__link"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="./js/isotope.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
