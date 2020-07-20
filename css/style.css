@@ -291,10 +291,6 @@ ul.filters{
     padding: 30px;
 }
 
-.none {
-    display: none;
-}
-
 .profil {
     text-decoration: none;
     color: var(--clr-dark);
