@@ -275,6 +275,16 @@ ul.filters{
 }
 
 
+@media (min-width: 600px) {
+    .projects {
+        display: flex;
+        max-width: 1000px;
+        margin-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+}
 .card{
     position: relative;
     margin-bottom: 50px;
