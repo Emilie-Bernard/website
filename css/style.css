@@ -86,8 +86,8 @@ h3 {font-size: var(--fs-h3);}
 }
 
 .section__subtitle--intro,
-.section__button--intro,
-.section__subtitle--about {
+.section__button--intro {
+    background: var(--clr-accent);
     font-family: var(--ff-secondary);
     margin-bottom: 1rem;
 }
@@ -289,6 +289,10 @@ ul.filters{
     font-family: var(--ff-secondary);
     color: var(--clr-accent);
     padding: 30px;
+}
+
+.none {
+    display: none;
 }
 
 .profil {
